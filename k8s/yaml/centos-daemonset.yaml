@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  namespace: test-tenant
+  name: centos-daemonset-echo
+  labels:
+    app: centos-daemonset-echo
+spec:
+  selector:
+    matchLabels:
+      app: centos-daemonset-echo
+  template:
+    metadata:
+      labels:
+        app: centos-daemonset-echo
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: centos-daemonset-echo
+        image: 10.6.203.60:5000/centos-base:191224
+        imagePullPolicy: IfNotPresent
+        env:
+          - name: MESSAGE
+            value: "This is a DaemonSet's Instance!"
+        command: ["/bin/echo"]
+        args: ["$(MESSAGE)"]
+        resources:
+          limits:
+            cpu: 500m
+            memory: 500Mi
+          requests:
+            cpu: 500m
+            memory: 500Mi
