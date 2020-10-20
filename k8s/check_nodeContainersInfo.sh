@@ -4,7 +4,7 @@
 
 v_containers_file(){
 
-    for i in `docker ps |grep -vE "POD|dce_engine_1" |awk 'NR >1 {print $1}'`;
+    for i in `docker ps |grep -vE "POD" |awk 'NR >1 {print $1}'`;
     do
       docker inspect $i |jq -r '[.[].State.StartedAt,.[].Name] | @tsv' |awk -F "." '{print $1,$2,$3}' |awk -F "_" '{print $1,$2,$3,$4}' |awk '{print $6,$4,$5,$1}'
     done
