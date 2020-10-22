@@ -7,7 +7,7 @@ echo "" >/tmp/zombieProclist.tmp
 
 #def_env_list(zomibe_and_containerid)
 
-v_containersIDlist=$(docker ps | grep -vE "POD|logclean|monitoring|dce|kube" | awk 'NR >1{print $1}')
+v_containersIDlist=$(docker ps | grep -vE "POD|logclean|monitoring|kube" | awk 'NR >1{print $1}')
 v_zombieProclist=$(ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]' | awk '{print $2}'| sort| uniq)
 
 
