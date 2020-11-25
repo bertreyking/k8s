@@ -95,3 +95,11 @@ for x in `cat test-view.yaml  | grep resources -A 17 |awk -F "-" '{print $2}' | 
 - 如果在yaml配置中只设置了 args，那么 Docker 镜像中自带的命令会使用该新参数作为其执行时的参数
 - 如果在yaml配置中同时设置了 command 与 args，那么 Docker 镜像中自带的命令及其参数会被忽略。 容器启动时只会执行配置中设置的命令，并使用配置中设置的参数作为命令的参数
 ```
+6. 执行kubectl get 所有资源类型报错 You must be logged in to the server (Unauthorized) 
+```
+- 可以执行 kubectl cofnig view 查看kubeconfig
+user 那行提示相关key已被删除
+
+- 谁动了你的，kubeconfigfile
+- cp /etc/kubernetes/admin.conf /root/.kube/config  直接进行修复
+```
