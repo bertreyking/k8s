@@ -6,7 +6,8 @@
 - [x] metrics-server_to yaml-dir
 - [x] kubectl 只读权限访问cluster
 - [x] docker&kk8s_shell使用
-- [x] [k8s_api](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#-strong-api-overview-strong-)
+- [x] [k8s_api_1.18](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#-strong-api-overview-strong-)
+- [x] [ks8_api_1.19](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#-strong-api-overview-strong-)
 
 1. kubectl 命令tab补全
 ```
