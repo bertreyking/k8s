@@ -1,3 +1,8 @@
+# api 接口汇总
+- [x] [k8s_api_1.18](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#-strong-api-overview-strong-)
+- [x] [ks8_api_1.19](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#-strong-api-overview-strong-)
+
+# k8s 知识点汇总
 - [x] [master 节点初始化配置及安装](https://github.com/bertreyking/k8s/blob/master/k8s/install_masterNode.md)
 - [x] [worker 节点初始化配置及接入](https://github.com/bertreyking/k8s/blob/master/k8s/join_workerNodes.md)
 - [x] [dashboard 配置 （部署后，chrome无法打开，火狐可以，下附解决方法）](https://github.com/bertreyking/k8s/tree/master/k8s/dashboard)
@@ -5,6 +10,5 @@
 - [x] [etcd部署要求](https://github.com/bertreyking/k8s/blob/master/k8s/etcd%E7%A1%AC%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83.md)
 - [x] [metrics-server部署](https://github.com/bertreyking/k8s/tree/master/k8s/yaml)
 - [x] [docker&k8s_shell使用](https://github.com/bertreyking/k8s/blob/master/k8s/define-command-argument-container.md)
-- [x] [k8s_api_1.18](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#-strong-api-overview-strong-)
-- [x] [ks8_api_1.19](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#-strong-api-overview-strong-)
+
 
