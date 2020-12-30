@@ -1,4 +1,4 @@
-# 镜像搬运工(来源: gcr.io/google_containers/)
+# 国外镜像(来源: gcr.io/google_containers/)
 
 - [cAdvisor](https://github.com/google/cadvisor/releases)
 ```
@@ -33,4 +33,10 @@ gpgcheck=0
 repo_gpgcheck=0
 gpgkey=http://mirrors.aliyun.com/kubernetes/yum/doc/yum-key.gpg
        http://mirrors.aliyun.com/kubernetes/yum/doc/rpm-package-key.gpg
+```
+
+# 国内阿里镜像源
+```
+kubeadm config images pull --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers
+kubeadm config images list --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers
 ```
