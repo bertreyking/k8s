@@ -24,3 +24,4 @@ spec:
             imagePullPolicy: IfNotPresent
             command: ["/bin/echo"]
             args: ["This is a Test cronjob！"]
+        successfulJobsHistoryLimit: 3
