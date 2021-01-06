@@ -10,5 +10,6 @@
 - [x] [etcd部署要求](https://github.com/bertreyking/k8s/blob/master/k8s/etcd%E7%A1%AC%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%8F%82%E8%80%83.md)
 - [x] [metrics-server部署](https://github.com/bertreyking/k8s/tree/master/k8s/yaml)
 - [x] [docker&k8s_shell使用](https://github.com/bertreyking/k8s/blob/master/k8s/define-command-argument-container.md)
+- [x] [api-resources清单](https://github.com/bertreyking/k8s/blob/master/k8s/api-resources%E6%B1%87%E6%80%BB/README.md)
 
 
