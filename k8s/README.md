@@ -1,6 +1,7 @@
 # api 接口汇总
 - [x] [k8s_api_1.18](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#-strong-api-overview-strong-)
-- [x] [ks8_api_1.19](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#-strong-api-overview-strong-)
+- [x] [k8s_api_1.19](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#-strong-api-overview-strong-)
+- [x] [k8s_api_1.23](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.23/#-strong-status-operations-deployment-v1-apps-strong-) 
 
 # k8s 知识点汇总
 - [x] [master 节点初始化配置及安装](https://github.com/bertreyking/k8s/blob/master/k8s/install_masterNode.md)
