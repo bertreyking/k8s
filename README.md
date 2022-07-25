@@ -4,7 +4,7 @@
 - [x] [docker](https://github.com/bertreyking/k8s/tree/master/dockerimg)
 - [x] [helm](https://github.com/bertreyking/k8s/tree/master/helm)
 - [x] [coredns](https://github.com/bertreyking/k8s/tree/master/coredns)
-- [x] [合作推广-即将废弃](https://www.socketpro.link/aff/100600)
+- [x] [合作推广-恢复正常](https://www.socketpro.link/aff/100600)
 ```
 这是一个永远都能连上的梯子，上线三年来一直稳定没有被封过！
 
