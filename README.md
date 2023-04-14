@@ -11,4 +11,3 @@
 # 快连看这里：
 安装后打开填写我的ID：179536607 你能多得3天会员！
 ```
-https://v1.socketproep.com/api/clash/trojan?auth=eyJpZCI6NTU4MCwidG9rZW4iOiJOWEVHaVlHNURyeUV4djM1cVJIcjY5SDJjajJjdVByTSJx789
