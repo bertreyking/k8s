@@ -11,3 +11,4 @@
 # 快连看这里：
 安装后打开填写我的ID：179536607 你能多得3天会员！
 ```
+- wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5.4_amd64.deb
